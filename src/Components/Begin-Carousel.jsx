@@ -35,8 +35,8 @@ const BeginCarousel = () => {
   return (
     <>
       <div className="begin-carousel">
-        <p>С ЧЕГО НАЧАТЬ</p>
-        <h3>Обзор функций</h3>
+        <p className="title-p">С ЧЕГО НАЧАТЬ</p>
+        <h3 className="desc-t">Обзор функций</h3>
         <Swiper
           navigation={true}
           style={{ height: "330px" }}
