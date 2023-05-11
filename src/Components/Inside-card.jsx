@@ -6,7 +6,7 @@ const InsideCard = () => {
     {
       id: 1,
       src: <GolichkaIcon />,
-      title: "ТОП продаж товаров на маркетплейсах",
+      title: "ТОП продаж товаров на маркетплейсах UZUM",
       desc: "Лидеры по объему выручки и заказам среди всех товаров.      ",
     },
     {
@@ -19,20 +19,20 @@ const InsideCard = () => {
       id: 3,
       src: <GolichkaIcon />,
       title: "Динамика брендов и продавцов      ",
-      desc: "Данные о продажах в разрезе отдельных брендов и продавцов по маркетплейсам.      ",
+      desc: "Данные о продажах в разрезе отдельных брендов и продавцов по маркетплейсам UZUM.      ",
     },
-    {
-      id: 4,
-      src: <GolichkaIcon />,
-      title: "Доступное представление данных      ",
-      desc: "В виде графиков и диаграмм. Табличные данные можно отфильтровать и скачать в xls и csv.      ",
-    },
+    // {
+    //   id: 4,
+    //   src: <GolichkaIcon />,
+    //   title: "Доступное представление данных      ",
+    //   desc: "В виде графиков и диаграмм. Табличные данные можно отфильтровать и скачать в xls и csv.      ",
+    // },
   ];
   return (
     <>
       <div>
         <p className="title-p">ЧТО ВНУТРИ</p>
-        <h3 className="desc-t">Возможности PSS</h3>
+        <h3 className="desc-t">Возможности Kattapult</h3>
         <div className="inside-cards">
           <div className="inside-card">
             <div className="inside-card__text">

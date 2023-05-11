@@ -22,7 +22,7 @@ function App() {
           <Main />
           <Brand />
           <ContactUs />
-          <BeginCarousel />
+          {/* <BeginCarousel /> */}
           <InsideCard />
           <Advantages />
           <MoreCard />

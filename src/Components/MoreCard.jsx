@@ -126,9 +126,9 @@ const MoreCard = () => {
     },
   ];
 
-  return (
+  return (  
     <div>
-      <p className="title-p">ЧТО ЕЩЁ</p>
+      <p className="title-p">ТОЛЬКО РАДИ ВАС</p>
       <h3
         className="desc-t"
         style={{ marginBottom: "20px", maxWidth: "1000px", width: "100%" }}
@@ -145,7 +145,7 @@ const MoreCard = () => {
           width: "100%",
         }}
       >
-        Мы подготовим для Вас аналитические отчёты на основе сервиса SellerFox
+        Мы подготовим для Вас аналитические отчёты на основе сервиса Kattapult
       </h6>
 
       <div className="moreCard">

@@ -7,11 +7,11 @@ const Main = () => {
     <div className="main">
       <MainChartLeft />
       <div className="main-box">
-        <p>SellerFox</p>
-        <h1>Сервис аналитики для хитрых продавцов</h1>
+        <p>Kattapult</p>
+        <h1>Сервис аналитики для умных продавцов</h1>
         <h6>Анализируйте конкурентов. Увеличивайте свои продажи с умом.</h6>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <button>Попробуйте Бесплатно</button>
+          <button>Попробуйте</button>
         </div>
       </div>
       <MainChartRight />

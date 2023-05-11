@@ -213,7 +213,7 @@ const PriceCard = () => {
           Выберите свой тариф{" "}
         </h3>
         <div className="discount">
-          <p>Только до 1 сентября СКИДКА на ВСЕ ТАРИФЫ от</p>
+          <p>Только до 5 июня СКИДКА на ВСЕ ТАРИФЫ от</p>
           <h3>20%</h3>
         </div>
         <div className="steps">
@@ -230,17 +230,17 @@ const PriceCard = () => {
           <div className="test-card">
             <div className="test-card__left">
               <h2>Тестовый</h2>
-              <p>0₽</p>
+              <p>0 UZS</p>
             </div>
             <div className="test-card__center">
               <p>
                 <span>1 час</span>
                 для всех пользователей
               </p>
-              <p>
+              {/* <p>
                 <span>24 часа</span>
                 при подключении Api Ozon или Wildberries
-              </p>
+              </p> */}
             </div>
             <div className="test-card__right">
               <button>ВЫБРАТЬ</button>

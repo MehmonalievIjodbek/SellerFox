@@ -169,6 +169,7 @@ h6 {
 
 .title-p {
   font-size: 18px;
+  line-height: 24px;
   color: #6d6c77;
 }
 .desc-t {
@@ -370,12 +371,12 @@ h6 {
   &__img {
     position: absolute;
     right: 0px;
-    top: -53px;
+    top: -39px;
 
     img {
       border-radius: 0 0 25px 0;
-      width: 600px;
-      height: 573px;
+      width: 500px;
+      height: 473px;
     }
   }
 
@@ -581,7 +582,6 @@ h6 {
       font-weight: 400;
     }
   }
-
   .unlimited-card {
     background: #f1f1f8;
     padding: 10px 20px;
@@ -596,6 +596,69 @@ h6 {
       color: #1f2937;
       font-weight: 400;
     }
+  }
+  .ant-steps.ant-steps-dot
+    .ant-steps-item-process
+    .ant-steps-icon:first-child
+    .ant-steps-icon-dot {
+    width: 25px;
+    height: 25px;
+  }
+
+  .ant-steps
+    .ant-steps-item-process
+    .ant-steps-item-icon
+    > .ant-steps-icon
+    .ant-steps-icon-dot {
+    background: red;
+  }
+
+  .ant-steps
+    .ant-steps-item-finish
+    .ant-steps-item-icon
+    > .ant-steps-icon
+    .ant-steps-icon-dot {
+    width: 25px;
+    height: 25px;
+    background: red;
+  }
+
+  .ant-steps
+    .ant-steps-item-finish
+    > .ant-steps-item-container
+    > .ant-steps-item-tail::after {
+    background: red;
+    border-radius: 10px;
+    margin-top: 6px;
+  }
+
+  .ant-steps
+    .ant-steps-item-process
+    > .ant-steps-item-container
+    > .ant-steps-item-tail::after {
+    margin-top: 6px;
+  }
+  .ant-steps
+    .ant-steps-item-wait
+    > .ant-steps-item-container
+    > .ant-steps-item-tail::after {
+    margin-top: 6px;
+  }
+
+  .ant-steps.ant-steps-dot .ant-steps-item-tail::after {
+    height: 7px;
+    width: calc(100% - 4px);
+    margin-inline-start: 7px;
+  }
+
+  .ant-steps
+    .ant-steps-item-wait
+    .ant-steps-item-icon
+    > .ant-steps-icon
+    .ant-steps-icon-dot {
+    background: #504f55;
+    width: 25px;
+    height: 25px;
   }
 }
 
