@@ -71,8 +71,8 @@ const Advantages = () => {
     },
   ];
   return (
-    <div>
-      <p className="title-p">ЧТОПРЕИМУЩЕСТВА</p>
+    <div style={{ marginBottom: "150px" }}>
+      <p className="title-p">ЧТО ПРЕИМУЩЕСТВА</p>
       <h3 className="desc-t" style={{ marginBottom: "20px" }}>
         Экономим Ваше время
       </h3>

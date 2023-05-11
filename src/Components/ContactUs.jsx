@@ -47,7 +47,9 @@ const ContactUs = () => {
       <div className="contact-us">
         <div>
           <p className="title-p">ЗАЧЕМ</p>
-          <h2 className="desc-t">Обращайтесь к нам, если:</h2>
+          <h2 className="desc-t" style={{ marginBottom: "109px" }}>
+            Обращайтесь к нам, если:
+          </h2>
           <div className="contact-us__cards">
             {contactUseOne.map((item) => (
               <div className="contact-us__card">
