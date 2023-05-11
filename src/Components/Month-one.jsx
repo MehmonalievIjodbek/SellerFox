@@ -8,17 +8,17 @@ const MonthOne = (props) => {
     <>
       <div className="price-card__month">
         {func?.map((item) => (
-          <div className="month">
-            <motion.div
-              className="box"
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{
-                duration: 0.5,
-                delay: 0.3,
-                ease: [0, 0.71, 0.2, 1.01],
-              }}
-            >
+          <motion.div
+            className="box month"
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              duration: 0.5,
+              delay: 0.3,
+              ease: [0, 0.71, 0.2, 1.01],
+            }}
+          >
+            <div>
               <h2>{item.text}</h2>
               <div className="month-price">
                 <p>{item.label}</p>
@@ -36,8 +36,8 @@ const MonthOne = (props) => {
               <div className="month-button">
                 <button>{item.button}</button>
               </div>
-            </motion.div>
-          </div>
+            </div>
+          </motion.div>
         ))}
       </div>
     </>

@@ -10,6 +10,7 @@ import InsideCard from "./Components/Inside-card";
 import Main from "./Components/Main";
 import MonthOne from "./Components/Month-one";
 import MoreCard from "./Components/MoreCard";
+import OfferCard from "./Components/OfferCard";
 import PriceCard from "./Components/Price-Card";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <About />
           <PriceCard />
           <MonthOne />
+          <OfferCard />
         </div>
       </div>
     </>

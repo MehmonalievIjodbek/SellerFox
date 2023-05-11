@@ -79,6 +79,71 @@ h6 {
   font-weight: 400;
 }
 
+:where(.css-dev-only-do-not-override-ed5zg0).ant-steps.ant-steps-dot
+  .ant-steps-item-process
+  .ant-steps-icon:first-child
+  .ant-steps-icon-dot {
+  width: 25px;
+  height: 25px;
+}
+
+:where(.css-dev-only-do-not-override-ed5zg0).ant-steps
+  .ant-steps-item-process
+  .ant-steps-item-icon
+  > .ant-steps-icon
+  .ant-steps-icon-dot {
+  background: red;
+}
+
+:where(.css-dev-only-do-not-override-ed5zg0).ant-steps
+  .ant-steps-item-finish
+  .ant-steps-item-icon
+  > .ant-steps-icon
+  .ant-steps-icon-dot {
+  width: 25px;
+  height: 25px;
+  background: red;
+}
+
+:where(.css-dev-only-do-not-override-ed5zg0).ant-steps
+  .ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  background: red;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+
+:where(.css-dev-only-do-not-override-ed5zg0).ant-steps
+  .ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  margin-top: 6px;
+}
+:where(.css-dev-only-do-not-override-ed5zg0).ant-steps
+  .ant-steps-item-wait
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  margin-top: 6px;
+}
+
+:where(.css-dev-only-do-not-override-ed5zg0).ant-steps.ant-steps-dot
+  .ant-steps-item-tail::after {
+  height: 7px;
+  width: calc(100% - 4px);
+  margin-inline-start: 7px;
+}
+
+:where(.css-dev-only-do-not-override-ed5zg0).ant-steps
+  .ant-steps-item-wait
+  .ant-steps-item-icon
+  > .ant-steps-icon
+  .ant-steps-icon-dot {
+  background: #504f55;
+  width: 25px;
+  height: 25px;
+}
+
 .swiper {
   width: 100%;
   height: 100%;
@@ -446,6 +511,7 @@ h6 {
 //PRICECARD
 
 .price-card {
+  margin-bottom: 170px;
   .discount {
     background-image: url("../../public/img/discount.png");
     background-position: center;
@@ -469,13 +535,66 @@ h6 {
     }
   }
   .steps {
-    margin-bottom: 180px;
+    margin-bottom: 30px;
     p {
       font-size: 16px;
       color: #504f55;
       font-weight: 600;
       text-align: center;
       margin-bottom: 40px;
+    }
+  }
+  .contactPrice {
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid #6d6c77;
+    p {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 700;
+      color: #27272b;
+      margin-bottom: 4px;
+      span {
+        color: #ffb934;
+      }
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 14px;
+      color: #6d6c77;
+    }
+  }
+  .unlimited {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    p {
+      font-size: 16px;
+      color: #1f2937;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 16px;
+      color: #1f2937;
+      font-weight: 400;
+    }
+  }
+
+  .unlimited-card {
+    background: #f1f1f8;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    max-width: 300px;
+    p {
+      font-size: 16px;
+      line-height: 22px;
+      color: #1f2937;
+      font-weight: 400;
     }
   }
 }
@@ -606,67 +725,35 @@ h6 {
   }
 }
 
-:where(.css-dev-only-do-not-override-ed5zg0).ant-steps.ant-steps-dot
-  .ant-steps-item-process
-  .ant-steps-icon:first-child
-  .ant-steps-icon-dot {
-  width: 25px;
-  height: 25px;
+// OFFER CARD
+
+.offer {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  h3 {
+    max-width: 490px;
+    width: 100%;
+    font-size: 16px;
+    color: #1f2937;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 20px;
+    a {
+      color: #4ab8ff;
+    }
+  }
 }
 
-:where(.css-dev-only-do-not-override-ed5zg0).ant-steps
-  .ant-steps-item-process
-  .ant-steps-item-icon
-  > .ant-steps-icon
-  .ant-steps-icon-dot {
-  background: red;
-}
-
-:where(.css-dev-only-do-not-override-ed5zg0).ant-steps
-  .ant-steps-item-finish
-  .ant-steps-item-icon
-  > .ant-steps-icon
-  .ant-steps-icon-dot {
-  width: 25px;
-  height: 25px;
-  background: red;
-}
-
-:where(.css-dev-only-do-not-override-ed5zg0).ant-steps
-  .ant-steps-item-finish
-  > .ant-steps-item-container
-  > .ant-steps-item-tail::after {
-  background: red;
-  border-radius: 10px;
-  margin-top: 6px;
-}
-
-:where(.css-dev-only-do-not-override-ed5zg0).ant-steps
-  .ant-steps-item-process
-  > .ant-steps-item-container
-  > .ant-steps-item-tail::after {
-  margin-top: 6px;
-}
-:where(.css-dev-only-do-not-override-ed5zg0).ant-steps
-  .ant-steps-item-wait
-  > .ant-steps-item-container
-  > .ant-steps-item-tail::after {
-  margin-top: 6px;
-}
-
-:where(.css-dev-only-do-not-override-ed5zg0).ant-steps.ant-steps-dot
-  .ant-steps-item-tail::after {
-  height: 7px;
-  width: calc(100% - 4px);
-  margin-inline-start: 7px;
-}
-
-:where(.css-dev-only-do-not-override-ed5zg0).ant-steps
-  .ant-steps-item-wait
-  .ant-steps-item-icon
-  > .ant-steps-icon
-  .ant-steps-icon-dot {
-  background: #504f55;
-  width: 25px;
-  height: 25px;
+.offer-card {
+  background: #f1f1f8;
+  margin-bottom: 15px;
+  border-radius: 17px;
+  padding: 15px;
+  p {
+    font-size: 18px;
+    color: #27272b;
+    font-weight: 400;
+    line-height: 22px;
+  }
 }

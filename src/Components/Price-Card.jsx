@@ -1,10 +1,59 @@
 import React, { useState } from "react";
-import { Popover, Steps } from "antd";
+import { Steps } from "antd";
+import TelegramIcon from "../icons/Telegram";
+import GolichkaRed from "../icons/Golichka-red-icons";
 import MonthOne from "./Month-one";
 import { motion } from "framer-motion";
+import AliExspressIconPrice from "../icons/AliExspress-Icon-price";
+import OzonPriceIcon from "../icons/Ozon-price-icons";
+import WbIcons from "../icons/Wb-icons";
+import GoogleIcon from "../icons/Google-icons";
 
 const PriceCard = () => {
   const [current, setCurrent] = useState(0);
+
+  const unlimited = [
+    {
+      id: 1,
+      holichka: <GolichkaRed />,
+      title: "Анализ маркетплейсов",
+      icons: [
+        {
+          id: 1,
+          icons: <AliExspressIconPrice />,
+        },
+        {
+          id: 2,
+          icons: <OzonPriceIcon />,
+        },
+        {
+          id: 3,
+          icons: <WbIcons />,
+        },
+      ],
+    },
+    {
+      id: 2,
+      holichka: <GolichkaRed />,
+      title: "Частота мониторинга      ",
+      desc: "До 2500 запросов в сутки      ",
+      icons: false,
+    },
+    {
+      id: 3,
+      holichka: <GolichkaRed />,
+      title: "Период выборки данных",
+      desc: "30 дней      ",
+      icons: false,
+    },
+    {
+      id: 4,
+      holichka: <GolichkaRed />,
+      title: "Данные доступны      ",
+      desc: "365 дней      ",
+      icons: false,
+    },
+  ];
 
   const onChange = (value) => {
     console.log("onChange:", value);
@@ -198,6 +247,69 @@ const PriceCard = () => {
             </div>
           </div>
           <div>{steps[current].content}</div>
+        </div>
+        <div className="contactPrice">
+          <p>
+            Ура! Теперь можно пользоваться SellerFox с{" "}
+            <span>беспроцентной рассрочкой!</span> Зарабатывай с SellerFox еще
+            выгоднее.*
+          </p>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "15px",
+              justifyContent: "center",
+            }}
+          >
+            <h3>
+              *Рассрочка действует для тарифов сроком от 1 месяца, скидки не
+              суммируются! По вопросам рассрочки обращаться
+            </h3>
+            <a
+              href="/"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "15px",
+                justifyContent: "center",
+              }}
+            >
+              {" "}
+              <TelegramIcon /> PSS
+            </a>
+          </div>
+        </div>
+        <div className="unlimited">
+          {unlimited.map((item) => (
+            <>
+              <div>
+                <div
+                  style={{
+                    display: "flex",
+                    gap: "10px",
+                    alignItems: "start",
+                  }}
+                >
+                  {item.holichka}
+                  <div>
+                    <p>{item.title}</p>
+                    <h3>{item.desc}</h3>
+                    <div style={{ display: "flex", gap: "10px" }}>
+                      {item?.icons &&
+                        item?.icons.map((ico) => (
+                          <div key={ico.id}>{ico.icons}</div>
+                        ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </>
+          ))}
+        </div>
+        <div className="unlimited-card">
+          <GoogleIcon />
+          <p>Доступен плагин для анализа маркетплейсов в браузере</p>
         </div>
       </div>
     </>
