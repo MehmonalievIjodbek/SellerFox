@@ -71,7 +71,7 @@ const Advantages = () => {
     },
   ];
   return (
-    <div style={{ marginBottom: "150px" }}>
+    <div className="advantages-card" style={{ marginBottom: "150px" }}>
       <p className="title-p"> ПРЕИМУЩЕСТВА</p>
       <h3 className="desc-t" style={{ marginBottom: "20px" }}>
         Экономим Ваше время

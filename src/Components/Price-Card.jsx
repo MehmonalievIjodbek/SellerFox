@@ -63,9 +63,9 @@ const PriceCard = () => {
   const monthOne = [
     {
       id: 1,
-      text: "Стандарт",
-      label: "6 499₽",
-      label2: "7 799₽",
+      text: "Lite",
+      label: "1 200 000 UZS",
+      label2: "1 500 000 UZS",
       desc: "% Есть рассрочка",
       icon: "1 месяц",
       icon1: "1 пользователь",
@@ -73,9 +73,9 @@ const PriceCard = () => {
     },
     {
       id: 2,
-      text: "Профессиональный",
-      label: "9 890₽",
-      label2: "11 890₽",
+      text: "Advanced",
+      label: "2 100 000 UZS",
+      label2: "2 500 000 UZS",
       desc: "% Есть рассрочка",
       icon: "1 месяц",
       icon1: "5 пользователей",
@@ -86,9 +86,9 @@ const PriceCard = () => {
   const monthTwo = [
     {
       id: 1,
-      text: "Стандарт",
-      label: "17 499₽",
-      label2: "20 999₽      ",
+      text: "Lite",
+      label: "4 050 000 UZS",
+      label2: "4 500 000 UZS",
       desc: "% Есть рассрочка",
       icon: "3 месяц",
       icon1: "1 пользователь",
@@ -96,9 +96,9 @@ const PriceCard = () => {
     },
     {
       id: 2,
-      text: "Профессиональный",
-      label: "26 890₽      ",
-      label2: "32 511₽      ",
+      text: "Advanced",
+      label: "6 750 000 UZS",
+      label2: "7 500 000 UZS",
       desc: "% Есть рассрочка",
       icon: "3 месяц",
       icon1: "5 пользователей",
@@ -109,9 +109,9 @@ const PriceCard = () => {
   const monthThree = [
     {
       id: 1,
-      text: "Стандарт",
-      label: "32 125₽      ",
-      label2: "38 550₽      ",
+      text: "Lite",
+      label: "7 650 000 UZS  ",
+      label2: "9 000 000 UZS    ",
       desc: "% Есть рассрочка",
       icon: "6 месяц",
       icon1: "1 пользователь",
@@ -119,9 +119,9 @@ const PriceCard = () => {
     },
     {
       id: 2,
-      text: "Профессиональный",
-      label: "51 173₽      ",
-      label2: "61 408₽      ",
+      text: "Advanced",
+      label: "12 750 000 UZS    ",
+      label2: "15 000 000 UZS",
       desc: "% Есть рассрочка",
       icon: "6 месяц",
       icon1: "5 пользователей",
@@ -132,9 +132,9 @@ const PriceCard = () => {
   const monthFour = [
     {
       id: 1,
-      text: "Стандарт",
-      label: "60 470₽      ",
-      label2: "72 564₽      ",
+      text: "Lite",
+      label: "14 400 000 UZS",
+      label2: "18 000 000 UZS",
       desc: "% Есть рассрочка",
       icon: "12 месяц",
       icon1: "1 пользователь",
@@ -142,9 +142,9 @@ const PriceCard = () => {
     },
     {
       id: 2,
-      text: "Профессиональный",
-      label: "96 325₽      ",
-      label2: "115 590₽      ",
+      text: "Advanced",
+      label: "24 000 000 UZS     ",
+      label2: "30 000 000 UZS",
       desc: "% Есть рассрочка",
       icon: "12 месяц",
       icon1: "5 пользователей",
@@ -220,6 +220,7 @@ const PriceCard = () => {
           <p>Настройте только период доступа</p>
 
           <Steps
+            className="steps-price"
             items={items}
             disabled={false}
             progressDot

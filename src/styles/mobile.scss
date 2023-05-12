@@ -1,0 +1,219 @@
+@media screen and (max-width: 1200px) {
+  .header {
+    padding: 0 0 0 10px;
+  }
+  .contact-us {
+    flex-wrap: wrap;
+    gap: 2px;
+    .contact-us__cards {
+      width: 100%;
+    }
+  }
+  .inside {
+    padding: 0 20px;
+  }
+  .inside-card {
+    height: max-content;
+  }
+  .advantages-card {
+    padding: 0 20px;
+  }
+  .more-card {
+    padding: 0 20px;
+  }
+  .about-cards {
+    padding: 0 20px;
+  }
+  .price-card {
+    padding: 0 20px;
+    .discount {
+      border-radius: 25px !important;
+      padding: 10px 15px;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .main-chart {
+    display: none;
+  }
+  .contact {
+    padding: 20px 20px;
+  }
+
+  .inside-card {
+    flex-wrap: wrap;
+    padding: 15px 15px 0;
+
+    &__img {
+      position: relative;
+      bottom: 0px !important;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      right: 0 !important;
+      border-radius: 0 !important;
+      img {
+        border-radius: 0 !important;
+      }
+    }
+  }
+  .advantages-card {
+    .desc-d {
+      margin-bottom: 0 !important;
+    }
+  }
+  .moreCard {
+    flex-wrap: wrap;
+    .moreCard-left__cards {
+      max-width: 400px;
+      width: 100%;
+      margin-bottom: 0;
+    }
+    .moreCard-left {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      justify-content: center;
+    }
+  }
+  .about-card {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .price-card__month {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 612px) {
+  .moreCard {
+    flex-wrap: wrap;
+    .desc-t {
+      font-size: 20px !important;
+    }
+    .moreCard-left__cards {
+      max-width: 400px;
+      width: 100%;
+      margin-bottom: 0;
+    }
+    .moreCard-left {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      justify-content: center;
+    }
+  }
+  .price-card {
+    :where(.css-dev-only-do-not-override-ed5zg0).ant-steps {
+      display: flex;
+      justify-content: end;
+      width: 100%;
+    }
+  }
+  .price-card__month {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    .month {
+      max-width: none !important;
+      width: 100% !important;
+    }
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .header {
+    display: flex;
+    justify-content: center;
+
+    ul {
+      display: none;
+    }
+  }
+  .menuFooter-mobile {
+    display: block !important;
+    padding-top: 100px;
+    z-index: 1000;
+    display: none;
+    position: fixed;
+    padding: 15px 2px;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    border-top: 1px solid red;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+      li {
+        cursor: pointer;
+        transition: all 0.5s ease;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .main-box {
+    padding: 0 12px;
+    margin-bottom: 60px;
+    h1 {
+      font-size: 32px !important;
+      line-height: 34px !important;
+    }
+  }
+  .more-card {
+    .desc-t {
+      font-size: 40px;
+    }
+  }
+
+  .inside-card {
+    flex-wrap: wrap;
+
+    &__img {
+      img {
+        width: 400px;
+        height: 373px;
+        border-radius: 0 !important;
+      }
+    }
+  }
+  .about-card {
+    flex-wrap: wrap;
+    h4 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 14px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+
+  .price-card {
+    .discount {
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .inside-card {
+    flex-wrap: wrap;
+
+    &__img {
+      img {
+        width: 300px;
+        height: 273px;
+        border-radius: 0 !important;
+      }
+    }
+  }
+}

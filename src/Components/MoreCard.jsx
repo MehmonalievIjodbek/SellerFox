@@ -127,7 +127,7 @@ const MoreCard = () => {
   ];
 
   return (  
-    <div>
+    <div className="more-card">
       <p className="title-p">ТОЛЬКО РАДИ ВАС</p>
       <h3
         className="desc-t"
@@ -135,7 +135,6 @@ const MoreCard = () => {
       >
         Нет желания заниматься аналитикой?
       </h3>
-
       <h6
         className="desc-d"
         style={{

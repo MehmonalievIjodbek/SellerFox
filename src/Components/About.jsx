@@ -33,7 +33,7 @@ const About = () => {
     },
   ];
   return (
-    <div>
+    <div className="about-cards">
       <p className="title-p">О ДАННЫХ</p>
       <h3
         className="desc-t"

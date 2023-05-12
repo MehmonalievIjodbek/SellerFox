@@ -8,6 +8,7 @@ function MainChartRight() {
       height="358"
       fill="none"
       viewBox="0 0 310 358"
+      className="main-chart"
     >
       <g filter="url(#filter0_dd_364_3427)">
         <rect

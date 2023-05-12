@@ -45,7 +45,7 @@ const ContactUs = () => {
   return (
     <div className="contact">
       <div className="contact-us">
-        <div>
+        <div className="contact-us__cards">
           <p className="title-p">
             ДЛЯ ЧЕГО ВАМ НУЖНО ПОЛЬЗОВАТЬСЯ НАШИМ СЕРВИСОМ
           </p>

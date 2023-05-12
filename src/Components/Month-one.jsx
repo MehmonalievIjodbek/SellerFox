@@ -24,15 +24,15 @@ const MonthOne = (props) => {
                 <p>{item.label}</p>
                 <span>{item.label2}</span>
               </div>
-              <h3>{item.desc}</h3>
+              {/* <h3>{item.desc}</h3> */}
               <div className="month-icon">
                 <CalendarOutlined />
                 <h5>{item.icon}</h5>
               </div>
-              <div className="month-icon">
+              {/* <div className="month-icon">
                 <UserOutlined />
                 <h5>{item.icon1}</h5>
-              </div>
+              </div> */}
               <div className="month-button">
                 <button>{item.button}</button>
               </div>
