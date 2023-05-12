@@ -18,7 +18,7 @@ function App() {
     <>
       <Header />
       <div className="container">
-        <div style={{ paddingTop: "10px" }}>
+        <div style={{ paddingTop: "100px" }}>
           <Main />
           <Brand />
           <ContactUs />

@@ -250,8 +250,8 @@ const PriceCard = () => {
         </div>
         <div className="contactPrice">
           <p>
-            Ура! Теперь можно пользоваться SellerFox с{" "}
-            <span>беспроцентной рассрочкой!</span> Зарабатывай с SellerFox еще
+            Ура! Теперь можно пользоваться Kattapult с{" "}
+            <span>беспроцентной рассрочкой!</span> Зарабатывай с Kattapult еще
             выгоднее.*
           </p>
           <div

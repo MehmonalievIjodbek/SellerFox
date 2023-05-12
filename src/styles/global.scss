@@ -79,6 +79,17 @@ h6 {
   font-weight: 400;
 }
 
+.brands-uzum {
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  &:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+  }
+}
+
 :where(.css-dev-only-do-not-override-ed5zg0).ant-steps.ant-steps-dot
   .ant-steps-item-process
   .ant-steps-icon:first-child

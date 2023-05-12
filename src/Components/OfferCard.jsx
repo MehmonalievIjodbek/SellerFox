@@ -5,13 +5,13 @@ const OfferCard = () => {
   const offer = [
     {
       id: 1,
-      title: "Парсинг маркетплейса, которого нет в SellerFox ",
+      title: "Парсинг маркетплейса, которого нет в Kattapult ",
       icons: <ArrowRightIcons />,
     },
     {
       id: 2,
       title:
-        "Получение уникальной информации, недоступной для сбора базовыми возможностями SellerFox.      ",
+        "Получение уникальной информации, недоступной для сбора базовыми возможностями Kattapult.      ",
       icons: <ArrowRightIcons />,
     },
     {
@@ -49,7 +49,7 @@ const OfferCard = () => {
           </h3>
           <h3>
             Сформулируйте свой запрос на почту{" "}
-            <a href="/">support@sellerfox.ru</a> и мы обязательно предложим Вам
+            <a href="/">support@kattapult.ru</a> и мы обязательно предложим Вам
             решение.
           </h3>
         </div>

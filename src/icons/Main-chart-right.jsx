@@ -4,8 +4,8 @@ function MainChartRight() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="510"
-      height="658"
+      width="260"
+      height="358"
       fill="none"
       viewBox="0 0 310 358"
     >

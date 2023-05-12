@@ -4,8 +4,8 @@ function MainChartLeft() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="540"
-      height="613"
+      width="260"
+      height="313"
       fill="none"
       viewBox="0 0 340 413"
       className="main-chart"

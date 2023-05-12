@@ -1,11 +1,24 @@
 import React from "react";
 import MainChartLeft from "../icons/Main-chart-left";
 import MainChartRight from "../icons/Main-chart-right";
+import { motion } from "framer-motion";
 
 const Main = () => {
   return (
     <div className="main">
-      <MainChartLeft />
+      <motion.div
+        className="box"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.8,
+          delay: 0.5,
+          ease: [0, 0.71, 0.2, 1.01],
+        }}
+      >
+        <MainChartLeft />
+      </motion.div>
+
       <div className="main-box">
         <p>Kattapult</p>
         <h1>Сервис аналитики для умных продавцов</h1>
@@ -14,7 +27,18 @@ const Main = () => {
           <button>Попробуйте</button>
         </div>
       </div>
-      <MainChartRight />
+      <motion.div
+        className="box"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.8,
+          delay: 0.5,
+          ease: [0, 0.71, 0.2, 1.01],
+        }}
+      >
+        <MainChartRight />
+      </motion.div>
     </div>
   );
 };
