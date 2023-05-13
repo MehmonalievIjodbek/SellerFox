@@ -31,6 +31,12 @@
       padding: 10px 15px;
     }
   }
+  .offer-container {
+    padding: 0 20px;
+  }
+  .footer {
+    padding: 0 20px;
+  }
 }
 @media screen and (max-width: 1024px) {
   .main-chart {
@@ -58,6 +64,7 @@
     }
   }
   .advantages-card {
+    margin-top: 50px;
     .desc-d {
       margin-bottom: 0 !important;
     }
@@ -94,6 +101,11 @@
       justify-content: center;
       gap: 30px;
     }
+  }
+  .offer {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
   }
 }
 
@@ -132,9 +144,43 @@
       width: 100% !important;
     }
   }
+  .unlimited {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .footer {
+    .footer-card {
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      padding: 10px 0 0 0;
+      p {
+        text-align: center;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 567px) {
+  .title-p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #6d6c77;
+  }
+  .desc-t {
+    width: 100%;
+    font-weight: 700;
+    color: #27272b;
+    font-size: 34px;
+    margin: 30px 0 70px;
+  }
+  .desc-d {
+    width: 100%;
+    font-weight: 500;
+    color: #6d6c77;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
   .header {
     display: flex;
     justify-content: center;

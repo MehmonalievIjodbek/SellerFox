@@ -31,11 +31,11 @@ function App() {
           <MoreCard />
           <About />
           <PriceCard />
-          {/* <MonthOne /> */}
-          {/* <OfferCard /> */}
+          <MonthOne />
+          <OfferCard />
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

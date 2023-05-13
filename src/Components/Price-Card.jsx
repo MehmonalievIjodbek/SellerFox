@@ -280,7 +280,7 @@ const PriceCard = () => {
             </a>
           </div>
         </div>
-        {/* <div className="unlimited">
+        <div className="unlimited">
           {unlimited.map((item) => (
             <>
               <div>
@@ -310,7 +310,7 @@ const PriceCard = () => {
         <div className="unlimited-card">
           <GoogleIcon />
           <p>Доступен плагин для анализа маркетплейсов в браузере</p>
-        </div> */}
+        </div>
       </div>
     </>
   );

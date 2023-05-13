@@ -81,7 +81,7 @@ const Advantages = () => {
       </h6>
       <Swiper
         navigation={true}
-        style={{ height: "580px" }}
+        // style={{ height: "580px" }}
         modules={[Pagination, Navigation]}
         className="mySwiper swiper-begin"
       >

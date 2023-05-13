@@ -21,7 +21,7 @@ const OfferCard = () => {
     },
   ];
   return (
-    <div>
+    <div className="offer-container">
       <p className="title-p">ПРЕДЛОЖИМ РЕШЕНИЕ</p>
       <h3
         className="desc-t"
