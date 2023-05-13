@@ -2,6 +2,7 @@ import "../src/styles/global.scss";
 import "../src/styles/mobile.scss";
 import About from "./Components/About";
 import Advantages from "./Components/Advantages";
+import BackToTop from "./Components/BackToTop";
 import BeginCarousel from "./Components/Begin-Carousel";
 import Brand from "./Components/Brand";
 import ContactUs from "./Components/ContactUs";
@@ -36,6 +37,7 @@ function App() {
         </div>
       </div>
       <Footer />
+      <BackToTop />
     </>
   );
 }

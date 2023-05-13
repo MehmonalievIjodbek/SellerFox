@@ -5,14 +5,17 @@ const MenuFooterMobile = () => {
     {
       id: 1,
       label: "О сервисе",
+      href: "#service",
     },
     {
       id: 2,
       label: "Возможности",
+      href: "#vozmojnos",
     },
     {
       id: 3,
       label: "Тарифы",
+      href: "#tarif",
     },
   ];
   return (
@@ -21,7 +24,9 @@ const MenuFooterMobile = () => {
         <ul>
           {header.map((item) => (
             <div key={item.id}>
-              <li>{item.label}</li>
+              <a href={item.href}>
+                <li>{item.label}</li>
+              </a>
             </div>
           ))}
         </ul>

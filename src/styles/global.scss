@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 html {
   scroll-behavior: smooth;
-} 
+}
 * {
   padding: 0;
   margin: 0;
@@ -82,6 +82,11 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: 400;
+}
+
+.backtoTop {
+  background: #ff4d6d;
+  border-radius: 50%;
 }
 
 .brands-uzum {
