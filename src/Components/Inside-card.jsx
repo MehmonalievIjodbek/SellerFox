@@ -30,7 +30,7 @@ const InsideCard = () => {
   ];
   return (
     <>
-      <div className="inside">
+      <div id="vozmojnos" className="inside">
         <p className="title-p">ЧТО ВНУТРИ</p>
         <h3 className="desc-t">Возможности Kattapult</h3>
         <div className="inside-cards">

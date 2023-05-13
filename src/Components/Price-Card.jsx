@@ -204,7 +204,7 @@ const PriceCard = () => {
 
   return (
     <>
-      <div className="price-card">
+      <div id="tarif" className="price-card">
         <p className="title-p">СКОЛЬКО СТОИТ</p>
         <h3
           className="desc-t"

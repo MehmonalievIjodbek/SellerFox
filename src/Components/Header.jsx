@@ -1,19 +1,22 @@
 import React from "react";
-import MenuFooterMobile from "./MenuFooterMobile";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const header = [
     {
       id: 1,
       label: "О сервисе",
+      href: "#service",
     },
     {
       id: 2,
       label: "Возможности",
+      href: "#vozmojnos",
     },
     {
       id: 3,
       label: "Тарифы",
+      href: "#tarif",
     },
   ];
   return (
@@ -29,7 +32,9 @@ const Header = () => {
             <ul>
               {header.map((item) => (
                 <div key={item.id}>
-                  <li>{item.label}</li>
+                  <a href={item.href}>
+                    <li>{item.label}</li>
+                  </a>
                 </div>
               ))}
             </ul>

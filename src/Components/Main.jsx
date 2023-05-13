@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Main = () => {
   return (
-    <div className="main">
+    <div id="service" className="main">
       <motion.div
         className="box"
         initial={{ opacity: 0, scale: 0.5 }}
