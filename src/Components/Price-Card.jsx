@@ -154,7 +154,7 @@ const PriceCard = () => {
 
   const steps = [
     {
-      title: <p className="step-text">1 месяца</p>,
+      title: "1 месяца",
       content: (
         <motion.div
           className="box"
@@ -171,11 +171,11 @@ const PriceCard = () => {
       ),
     },
     {
-      title: <p className="step-text">3 месяца</p>,
+      title: "3 месяца",
       content: <MonthOne func={monthTwo} />,
     },
     {
-      title: <p className="step-text">6 месяцев</p>,
+      title: "6 месяцев",
       content: (
         <motion.div
           className="box"
@@ -192,7 +192,7 @@ const PriceCard = () => {
       ),
     },
     {
-      title: <p className="step-text">12 месяцев</p>,
+      title: "12 месяцев",
       content: <MonthOne func={monthFour} />,
     },
   ];
@@ -218,7 +218,6 @@ const PriceCard = () => {
         </div>
         <div className="steps">
           <p>Настройте только период доступа</p>
-
           <Steps
             className="steps-price"
             items={items}

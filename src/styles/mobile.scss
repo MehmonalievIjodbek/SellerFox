@@ -100,6 +100,7 @@
 @media screen and (max-width: 612px) {
   .moreCard {
     flex-wrap: wrap;
+    justify-content: center;
     .desc-t {
       font-size: 20px !important;
     }
@@ -229,7 +230,20 @@
     }
   }
 }
-
+@media screen and (max-width: 475px) {
+  .price-card {
+    .ant-steps {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+      justify-items: center;
+    }
+    .steps {
+      .step-text {
+        margin-bottom: 1px;
+      }
+    }
+  }
+}
 @media screen and (max-width: 450px) {
   .inside-card {
     flex-wrap: wrap;

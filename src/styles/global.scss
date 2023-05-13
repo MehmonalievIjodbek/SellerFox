@@ -560,6 +560,7 @@ h6 {
   }
   .steps {
     margin-bottom: 30px;
+
     p {
       font-size: 16px;
       color: #504f55;
@@ -605,6 +606,9 @@ h6 {
       font-weight: 400;
     }
   }
+  .steps-price {
+    margin-bottom: 40px;
+  }
   .unlimited-card {
     background: #f1f1f8;
     padding: 10px 20px;
@@ -619,6 +623,18 @@ h6 {
       color: #1f2937;
       font-weight: 400;
     }
+  }
+  .ant-steps
+    .ant-steps-item-process
+    > .ant-steps-item-container
+    > .ant-steps-item-content
+    > .ant-steps-item-title {
+    font-weight: 700;
+    color: red;
+  }
+
+  .ant-steps .ant-steps-item-title {
+    font-weight: 700;
   }
   .ant-steps.ant-steps-dot
     .ant-steps-item-process
@@ -810,6 +826,9 @@ h6 {
   }
 }
 
+.current-step {
+  color: red;
+}
 // OFFER CARD
 
 .offer {
