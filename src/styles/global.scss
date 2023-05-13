@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -29,7 +30,9 @@ aside {
 
 html,
 body {
-  font-family: "Open-sans", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   height: 100%;
   width: 100%;
   font-size: 100%;
@@ -739,7 +742,6 @@ h6 {
         background: #ff4d6d;
         color: white;
         border-radius: 12px;
-        max-width: 315px;
         width: 100%;
         font-weight: 600;
       }

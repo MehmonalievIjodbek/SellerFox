@@ -26,12 +26,11 @@ function App() {
           <Main />
           <Brand />
           <ContactUs />
-          <BeginCarousel />
           <InsideCard />
           <Advantages />
           <MoreCard />
           <About />
-          {/* <PriceCard /> */}
+          <PriceCard />
           {/* <MonthOne /> */}
           {/* <OfferCard /> */}
         </div>
