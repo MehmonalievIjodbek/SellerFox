@@ -209,28 +209,22 @@
         font-size: 20px;
       }
     }
-    :where(.css-dev-only-do-not-override-ed5zg0).ant-steps {
+    .ant-steps {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
     }
-    :where(.css-dev-only-do-not-override-ed5zg0).ant-steps
-      .ant-steps-item-container {
+    .ant-steps .ant-steps-item-container {
       display: flex !important;
       flex-direction: column;
       gap: 20px;
     }
-    :where(
-        .css-dev-only-do-not-override-ed5zg0
-      ).ant-steps.ant-steps-vertical.ant-steps-dot
+    .ant-steps.ant-steps-vertical.ant-steps-dot
       .ant-steps-item
       > .ant-steps-item-container
       > .ant-steps-item-tail {
       display: none;
     }
-    :where(
-        .css-dev-only-do-not-override-ed5zg0
-      ).ant-steps.ant-steps-vertical.ant-steps-dot
-      .ant-steps-item-icon {
+    .ant-steps.ant-steps-vertical.ant-steps-dot .ant-steps-item-icon {
       margin-inline-start: 24px;
     }
   }
