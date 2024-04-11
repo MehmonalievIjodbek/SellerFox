@@ -198,7 +198,7 @@ const MoreCard = () => {
                 ))}
               </div>
             ) : (
-              ""
+              ""   
             )}
           </div>
           <div>
